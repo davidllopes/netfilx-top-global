@@ -1,38 +1,146 @@
+:root {
+    --highlight-color: rgb(229, 9, 20);
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+    font-weight: 600;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    max-width: 150px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.App-link,
+a {
+    color: var(--highlight-color);
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+.flex-1 {
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+}
+.align-center {
+    align-items: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.hero {
+    align-items: center;
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    min-height: 60vh;
+}
+.hero .link {
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-link {
+    font-size: 1rem;
+}
+
+.jumbo-txt {
+    font-size: calc(5rem + 2vmin);
+}
+
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.img-responsive {
+    max-width: 100%;
+    width: 100%;
+}
+
+.gap-5 {
+    gap: 1rem;
+}
+
+.top-background {
+    background-size: 100% calc(100% + 2px), 150% 100%;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.6) 50px,
+            rgba(0, 0, 0, 0.6) 100px,
+            #000
+        ),
+        url("assets/imgs/netflix-bg.jpg");
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.6) 50px,
+            rgba(0, 0, 0, 0.6) 100px,
+            #000
+        ),
+        url("assets/imgs/netflix-bg.jpg");
+}
+
+.nflx-bg-1 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(
+            #000 0,
+            transparent 20%,
+            transparent 80%,
+            #000 100%
+        ),
+        url("assets/imgs/netflix-bg1.jpg");
+    background-image: linear-gradient(
+            #000 0,
+            transparent 20%,
+            transparent calc(100% - 20%),
+            #000 100%
+        ),
+        url("assets/imgs/netflix-bg1.jpg");
+}
+
+.section1 {
+    min-height: 60vh;
+}
+.top__select {
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+}
+.dropdown {
+    border-bottom: 2px solid var(--highlight-color);
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.arrow-img {
+    max-width: 1rem;
+}
+
+.small-img {
+    max-width: 3.5rem;
+    width: 100%;
+}
+
+.info-txt {
+    font-size: 0.875rem;
+}
+
+.wh-full {
+    height: 100%;
+    width: 100%;
 }
