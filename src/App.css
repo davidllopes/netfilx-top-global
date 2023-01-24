@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1rem;
     width: 100%;
 }
 
@@ -92,7 +93,8 @@ a {
         url("assets/imgs/netflix-bg.jpg");
 }
 
-.nflx-bg-1 {
+.nflx-bg-1,
+.nflx-bg-2 {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-image: -webkit-linear-gradient(
@@ -111,8 +113,28 @@ a {
         url("assets/imgs/netflix-bg1.jpg");
 }
 
+.nflx-bg-2 {
+    background-image: -webkit-linear-gradient(
+            #000 0,
+            transparent 20%,
+            transparent 80%,
+            #000 100%
+        ),
+        url("assets/imgs/netflix-bg2.jpg");
+    background-image: linear-gradient(
+            #000 0,
+            transparent 20%,
+            transparent calc(100% - 20%),
+            #000 100%
+        ),
+        url("assets/imgs/netflix-bg2.jpg");
+}
+
 .section1 {
-    min-height: 60vh;
+    min-height: 100vh;
+}
+.section2 {
+    min-height: 100vh;
 }
 .top__select {
     margin: auto;

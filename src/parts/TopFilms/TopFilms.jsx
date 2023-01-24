@@ -80,11 +80,6 @@ export default function TopFilms() {
                 territories are included in the countries list for convenience.
             </p>
             <Slider films={films} />
-
-            <p className="info-txt">
-                Some titles may not be available in all regions. Some
-                territories are included in the countries list for convenience.
-            </p>
         </div>
     );
 }

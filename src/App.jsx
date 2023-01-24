@@ -14,6 +14,16 @@ function App() {
             <section className="section1 nflx-bg-1">
                 <TopFilms />
             </section>
+
+            <section className="section2 nflx-bg-2">
+                <br />
+                <h3>
+                    Titles in the Global Top 10 from January 9 - January 15,
+                    2023 were also popular in countries around the world:
+                </h3>
+                <br />
+                <br />
+            </section>
         </div>
     );
 }
