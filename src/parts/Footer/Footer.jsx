@@ -9,7 +9,7 @@ import logo from "../../assets/imgs/logo.png";
 export const Footer = () => {
     return (
         <footer>
-            <div className="container margin-y">
+            <div className="margin-y">
                 <div className="flex space-between">
                     <div className="flex space-between gap-1 ">
                         <img src={logo} className="App-logo" alt="logo" />
