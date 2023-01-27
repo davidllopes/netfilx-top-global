@@ -1,8 +1,15 @@
 import "./App.css";
+import { Footer } from "./parts/Footer/Footer";
 import Header from "./parts/Header/Header";
 import Hero from "./parts/Hero/Hero";
+import { Methodology } from "./parts/Methodology/Methodology";
 import TopFilms from "./parts/TopFilms/TopFilms";
 
+/**
+ * App structure: Header, Hero, Top Films Section and ranking, Methodology section, Footer
+ * I haven't included all sections as it would be too time-consuming
+ * Original page: https://top10.netflix.com/
+ */
 function App() {
     return (
         <div className="App">
@@ -15,15 +22,8 @@ function App() {
                 <TopFilms />
             </section>
 
-            <section className="section2 nflx-bg-2">
-                <br />
-                <h3>
-                    Titles in the Global Top 10 from January 9 - January 15,
-                    2023 were also popular in countries around the world:
-                </h3>
-                <br />
-                <br />
-            </section>
+            <Methodology />
+            <Footer />
         </div>
     );
 }

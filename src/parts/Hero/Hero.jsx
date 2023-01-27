@@ -1,3 +1,7 @@
+/**
+ * Hero section with title
+ */
+
 export default function Hero() {
     return (
         <div className="hero text-white">

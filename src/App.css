@@ -25,6 +25,10 @@ a {
 .container {
     max-width: 1400px;
     margin: auto;
+    padding: 0 1rem;
+}
+.container--lg {
+    max-width: 1024px;
 }
 .flex {
     display: flex;
@@ -39,6 +43,10 @@ a {
 .space-between {
     justify-content: space-between;
 }
+.justify-right {
+    justify-content: right;
+}
+
 .hero {
     align-items: center;
     display: flex;
@@ -57,7 +65,12 @@ a {
 .jumbo-txt {
     font-size: calc(5rem + 2vmin);
 }
-
+.regular {
+    font-weight: 400;
+}
+.inline-block {
+    display: inline-block;
+}
 .absolute {
     position: absolute;
 }
@@ -69,7 +82,7 @@ a {
     width: 100%;
 }
 
-.gap-5 {
+.gap-1 {
     gap: 1rem;
 }
 
@@ -153,6 +166,10 @@ a {
     max-width: 1rem;
 }
 
+.xs-img {
+    max-width: 1rem;
+    width: 100%;
+}
 .small-img {
     max-width: 3.5rem;
     width: 100%;
@@ -165,4 +182,25 @@ a {
 .wh-full {
     height: 100%;
     width: 100%;
+}
+.max-w-prose {
+    max-width: 65ch;
+    text-align: left;
+}
+.margin-y {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+.margin-y-sm {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.white-links a,
+a.white-links {
+    color: var(--white-text);
+}
+
+.social__btn {
+    width: 1.5rem;
 }
