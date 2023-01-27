@@ -1,8 +1,8 @@
 # Built from scratch using vanilla CSS
 
-Original page: [Netflix Top 10](https://top10.netflix.com/){:target="_blank"}
+Original page: <a href="https://top10.netflix.com/" target="_blank">Netflix Top 10</a>
 
-Live demo: [https://main.d24sibwxnwrpqy.amplifyapp.com/](https://main.d24sibwxnwrpqy.amplifyapp.com/){:target="_blank"}
+Live demo: <a href="https://main.d24sibwxnwrpqy.amplifyapp.com/" target="_blank">https://main.d24sibwxnwrpqy.amplifyapp.com/</a>
 
 ![screenshot](public/assets/screenshot.png)
 
