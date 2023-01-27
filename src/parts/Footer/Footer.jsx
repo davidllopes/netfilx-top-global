@@ -9,7 +9,7 @@ import logo from "../../assets/imgs/logo.png";
 export const Footer = () => {
     return (
         <footer>
-            <div className="margin-y">
+            <div className="margin-y padding-x">
                 <div className="flex space-between">
                     <div className="flex space-between gap-1 ">
                         <img src={logo} className="App-logo" alt="logo" />
@@ -30,12 +30,11 @@ export const Footer = () => {
                         />
                     </div>
                     <div className="white-links flex gap-1">
-                        <a href="#home">About</a>{" "}
-                        <a href="#home">Help Center</a>{" "}
-                        <a href="#home">Netflix.com</a>{" "}
-                        <a href="#home">Cookie Preferences</a>{" "}
-                        <a href="#home">Terms of Service</a>{" "}
-                        <a href="#home">Privacy</a>
+                        {" "}
+                        Original page
+                        <a href="https://top10.netflix.com/">
+                            https://top10.netflix.com/
+                        </a>{" "}
                     </div>
                 </div>
                 <br />

@@ -187,6 +187,9 @@ a {
     max-width: 65ch;
     text-align: left;
 }
+.padding-x {
+    padding: 0 1rem;
+}
 .margin-y {
     margin-bottom: 5rem;
     margin-top: 5rem;
