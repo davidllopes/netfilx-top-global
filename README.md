@@ -1,6 +1,7 @@
-# Built from scratch
+# Built from scratch using vanilla CSS
 
 Original page: [Netflix Top 10](https://top10.netflix.com/)
+Live demo: [https://main.d24sibwxnwrpqy.amplifyapp.com/](https://main.d24sibwxnwrpqy.amplifyapp.com/)
 
 ![screenshot](public/assets/screenshot.png)
 
